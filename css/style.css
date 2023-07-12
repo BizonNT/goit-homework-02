@@ -54,7 +54,7 @@ body {
   color: var(--ocean);
 }
 
-.address {
+address {
   font-style: normal;
 }
 
@@ -188,7 +188,7 @@ body {
 /*  --------- Portfolio menu --------- */
 
 .portfolio-menu-button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--iris);
   background-color: var(--cloud);
   text-align: center;
