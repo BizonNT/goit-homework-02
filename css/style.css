@@ -1,0 +1,264 @@
+/* variables */
+
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+}
+
+/* main styles */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--white);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.button {
+  cursor:pointer;
+}
+
+/*  --------- Header --------- */
+
+/* .header {} */
+
+/* .header-navigation {} */
+
+.header-logo-text {
+  color: var(--iris);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.dark {
+  color: var(--navyblue);
+}
+
+/* .header-navigation-list {} */
+/* .header-navigation-item {} */
+
+.header-navigation-link {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+.header-navigation-link:hover,
+.header-navigation-link:focus {
+  color: var(--ocean);
+}
+
+/* .adress {} */
+/* .adress-list {} */
+/* .address-item {} */
+
+.address-item-link {
+  color: var(--slate);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+.address-item-link:hover,
+.address-item-link:focus {
+  color: var(--ocean);
+}
+
+/*  --------- Footer --------- */
+
+.footer {
+  background: var(--navyblue);
+}
+
+.cloud {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+/*  --------- Hero - Main action section --------- */
+
+#hero {
+  background-color: var(--navyblue);
+}
+
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07em;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  color: var(--white);
+  background-color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+}
+
+/*  --------- Main streams section --------- */
+
+/* .streams {} */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* .streams-list {} */
+/* .streams-item {} */
+
+.streams-item-tytle {
+  color: var(--navyblue);
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.streams-item-text {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+/*  --------- Our activities section --------- */
+
+/* .activities {} */
+
+.activities-tytle {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* .activity-list {} */
+/* .activity-item {} */
+
+/*  --------- Our activities section --------- */
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* .team-list {} */
+
+.team-item {
+  background-color: var(--white);
+}
+
+.team-item-name {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.team-item-text {
+  color: var(--slate);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+/*  --------- Portfolio menu --------- */
+
+/* #portfolio-menu {} */
+/* .portfolio-menu-list {} */
+/* .portfolio-menu-item {} */
+
+.portfolio-menu-button {
+  color: var(--iris);
+  background-color: var(--cloud);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+}
+
+.portfolio-menu-button:hover,
+.portfolio-menu-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/*  --------- Main portfolio content --------- */
+
+/* .portfolio-content {} */
+/* .portfolio-content-list {} */
+/* .portfolio-content-item {} */
+
+.portfolio-content-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-content-type {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5rem;
+  letter-spacing: 0.02px;
+}
